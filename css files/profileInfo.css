@@ -1,12 +1,12 @@
 .author-content{
-    background-color: rgb(28, 51, 51);
+    background-color: rgb(63, 129, 129);
     height: 100%;
     min-height: 250px;
     position: relative;
 }
 .author-name, .author-descrip{
     
-    color: rgb(141, 117, 117);
+    color: rgb(38, 24, 24);
     padding-left: 10px;
     font-size: 18px;
 }
@@ -19,7 +19,7 @@
 .author-picture{
     height: 100px;
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: 25px;
-    border-radius: 50px;
+    border-radius: 20px;
 }

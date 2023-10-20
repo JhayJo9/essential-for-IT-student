@@ -4,7 +4,35 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .header{
-    background-color: aqua;
+    background-color: rgb(85, 193, 193);
     height: 100%;
     min-height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+.left-section{
+    width: 180px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.home:hover, .course:hover{
+    opacity: 0.5;
+    background-color: rgb(222, 233, 233);
+    border-radius: 10px;
+}
+.btn-menu{
+    width: 30px;
+    background-color: rgb(85, 193, 193);
+    border: none;
+}
+.home , .course{
+    padding-top: 5px;
+}
+
