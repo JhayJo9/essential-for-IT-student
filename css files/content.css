@@ -1,0 +1,57 @@
+.whole-content{
+    background-color: bisque;
+    height: 100%;
+    min-height: 1000px;
+}
+.topic{
+    font-weight: 600;
+}
+.web-dev{
+    padding-left: 10px;
+    border-style: solid;
+    border-color: rgb(32, 58, 58);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width:  2px;
+    padding-top: 10px;
+}
+.learnProgram{
+    padding-left: 10px;
+    border-style: solid;
+    border-color: rgb(32, 58, 58);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width:  2px;
+    padding-top: 10px;
+}
+.title{
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+.link-arrow{
+    font-size: 13px;
+}
+.links{
+    position: relative;
+    font-size: 13px;
+    padding-right: 10px;
+    
+}
+.need-for-programming{
+    padding-top: 10px;
+    padding-left: 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.title-content{
+    margin-bottom: 10px;
+}
+.title-descrip{
+   display: grid;
+   grid-template-columns: 300px 1fr 1fr;
+   padding-left: 60px;
+}
