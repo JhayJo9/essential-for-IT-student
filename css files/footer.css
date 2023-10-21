@@ -1,0 +1,17 @@
+.footer{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(62, 171, 171);
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.git-acc p {
+    font-weight: 600;
+}
+.emailw{
+    font-weight: 600;
+}
