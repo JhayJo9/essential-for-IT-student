@@ -12,7 +12,7 @@
 }
 
 .author-name{
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 60px;
     width: 205px;
 }
@@ -22,4 +22,14 @@
     right: 10px;
     top: 25px;
     border-radius: 20px;
+}
+
+@media (min-width: 500px){
+    .author-picture{
+        height: 150px;
+        position: absolute;
+        right: 10px;
+        top: 50px;
+        border-radius: 20px;
+    }
 }
